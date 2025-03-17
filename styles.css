@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shafarik&family=Sigmar&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 400px;
+}
+
+.navbar {
+  padding: 20px 4vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo {
+  margin-right: auto;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+}
+
+.logo-text {
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.navbar img {
+  width: 80px;
+  border-radius: 100%;
+}
+.navbar-link {
+  padding: 5px 0;
+  margin-left: 20px;
+  color: #333;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 4vw;
+}
+.greeting-text {
+  margin-right: 30px;
+}
+.greeting-text h1 {
+  font-size: 30px;
+}
+.greeting-text p {
+  margin: 20px 0;
+}
+.greeting-image {
+  max-width: 100%;
+}
+.cta-button {
+  padding: 20px 60px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  font-weight: bold;
+  background-color: rgb(173, 52, 52);
+  color: #fff;
+  cursor: pointer;
+  transition: all 600ms;
+}
+.cta-button:hover {
+  background-color: #fff;
+  color: rgb(173, 52, 52);
+  border: 1px solid rgb(173, 52, 52);
+}
+
+.img {
+  width: 275px;
+}
+
+.offer {
+  padding: 55px 4vw;
+}
+
+.section-titlle {
+  font-size: 48px;
+  margin: 33px auto;
+  border-top: 4px solid rgb(173, 52, 52);
+  width: max-content;
+  padding: 20px;
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.offer-card {
+  width: 320px;
+  background-color: #fff;
+  border: 1px solid rgb(173, 52, 52);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.offer-card img {
+  margin-bottom: 48px;
+}
+
+.offer-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.offer-card p {
+    text-align: center;
+}
+
+.offer-card h3:hover {
+    color: rgb(173, 52, 52);
+    transition: all 600ms;
+}
